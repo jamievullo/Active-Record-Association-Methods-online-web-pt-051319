@@ -3,8 +3,8 @@ class Song < ActiveRecord::Base
   belongs_to :genre
 
   def get_genre_name
-    binding.pry 
-    self.genres.tap {|x| x.name} 
+    #binding.pry 
+    self.genre.name 
   end
 
   def drake_made_this
