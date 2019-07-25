@@ -17,6 +17,6 @@ class Genre < ActiveRecord::Base
     binding.pry 
     
     self.artists.map do {|x| x.name} 
-    
+   end 
   end
 end
